@@ -65,7 +65,7 @@ def send_message(user_id, message):
 
 # Streamlit UI Setup
 st.title("KETI AI")
-st.write("Would you like to register as a doctor ,school, or healthfacility?.")
+st.write("get specailised health care for your patients online?.")
 
 # Generate unique user ID
 if "user_id" not in st.session_state:
